@@ -1,5 +1,4 @@
 
-
 check.packages <- function(pkg){
   new.pkg <- pkg [!(pkg %in% installed.packages()[,"Package"])]
   if (length(new.pkg))
@@ -73,7 +72,8 @@ dtBlock2_With_Attributes <- data.frame(dtBlock2, dtAttributeBlock2_rep)
 
 database <- rbind(dtBlock1_With_Attributes, dtBlock2_With_Attributes)
 
-#############################
+##############################
+
 
 
 
